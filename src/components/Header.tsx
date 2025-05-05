@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
+import { FaDownload } from 'react-icons/fa';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +15,7 @@ const Header: React.FC = () => {
         <a href="#recursos" className="text-white hover:text-neoinfo-purple transition-colors">Recursos</a>
         <a href="#tecnologias" className="text-white hover:text-neoinfo-purple transition-colors">Tecnologias</a>
         <a href="#sobre" className="text-white hover:text-neoinfo-purple transition-colors">Sobre</a>
-        <a href="./Archives/Neofetch.rar" download><Button className="bg-neoinfo-purple hover:bg-opacity-90 text-white">Download</Button></a>
+        <a href="././public/Neofetch.zip" download><Button className="bg-neoinfo-purple hover:bg-opacity-90 text-white"><FaDownload/> Download</Button></a>
       </nav>
       
       <div className="md:hidden">
@@ -33,7 +34,7 @@ const Header: React.FC = () => {
             <a href="#recursos" className="text-white hover:text-neoinfo-purple transition-colors">Recursos</a>
             <a href="#tecnologias" className="text-white hover:text-neoinfo-purple transition-colors">Tecnologias</a>
             <a href="#sobre" className="text-white hover:text-neoinfo-purple transition-colors">Sobre</a>
-            <a href="./Archives/Neofetch.rar" download><Button className="bg-neoinfo-purple hover:bg-opacity-90 text-white w-full">Download</Button></a>
+            <a href="././public/Neofetch.zip" download><Button className="bg-neoinfo-purple hover:bg-opacity-90 text-white w-full"><FaDownload/> Download</Button></a>
           </div>
         </div>
       )}

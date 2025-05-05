@@ -1,6 +1,8 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { FaDownload } from 'react-icons/fa';
+import { FaBook } from 'react-icons/fa';
 
 const Hero: React.FC = () => {
   return (
@@ -13,14 +15,14 @@ const Hero: React.FC = () => {
           Uma ferramenta moderna desenvolvida em Python para visualização detalhada de métricas do seu sistema, com interface elegante e informações em tempo real.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <a href="./Archives/Neofetch.zip" download>
-            <Button className="bg-neoinfo-purple hover:bg-opacity-90 text-white py-6 px-8 text-lg">
-              Download Gratuito
+          <a href="././public/Neofetch.zip" download>
+            <Button id='btn-d' className="bg-neoinfo-purple hover:bg-opacity-90 text-white py-6 px-8 text-lg">
+              <FaDownload/> Download Gratuito
             </Button>
           </a>
           <a href="https://github.com/Rickzinho3/Neofetch">
-            <Button variant="outline" className="border-neoinfo-cyan text-neoinfo-cyan hover:bg-neoinfo-cyan/10 py-6 px-8 text-lg">
-              Ver Documentação
+            <Button id='btn-doc' variant="outline" className="border-neoinfo-cyan text-neoinfo-cyan hover:bg-neoinfo-cyan/10 py-6 px-8 text-lg">
+              <FaBook/> Ver Documentação
             </Button>
           </a>
         </div>
@@ -28,7 +30,7 @@ const Hero: React.FC = () => {
       <div id='div-img' className="flex-1 max-w-2xl shadow-xl rounded-lg overflow-hidden border border-neoinfo-purple/30">
         <img 
           src="/neorick-screenshot.png" 
-          alt="NeoInfo Screenshot" 
+          alt="NeoRick Screenshot" 
           className="img"
         />
       </div>

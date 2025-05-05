@@ -8,17 +8,16 @@ const About: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Sobre o <span className="text-neoinfo-purple">NeoRick</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{color: '#00000090'}}>Sobre o <span className="text-neoinfo-purple">NeoRick</span>
             </h2>
-            <p className="text-muted-foreground mb-6">
-              O NeoInfo nasceu da necessidade de uma ferramenta de monitoramento de sistema que fosse ao mesmo tempo poderosa e visualmente atraente. Desenvolvido por entusiastas de tecnologia, nosso software combina funcionalidade com estética para proporcionar uma experiência única.
+            <p className="text-muted-foreground mb-6" style={{textAlign: 'justify'}}>
+              O NeoRick nasceu da minha necessidade por uma ferramenta de monitoramento de sistema que fosse, ao mesmo tempo, poderosa e visualmente atraente, diretamente no terminal. Desenvolvi este projeto unindo minha paixão por tecnologia com o desejo de criar algo funcional e esteticamente agradável, sem a complexidade de interfaces gráficas.
             </p>
-            <p className="text-muted-foreground mb-6">
-              Utilizando Python e bibliotecas modernas como psutil, WMI e rich, criamos uma solução que permite visualizar detalhadamente o desempenho do seu sistema com uma interface elegante e intuitiva.
+            <p className="text-muted-foreground mb-6" style={{textAlign: 'justify'}}>
+              Utilizando <strong><span style={{color: '#f2cc0c'}}>Python</span></strong> e bibliotecas modernas como <strong><span style={{color: "#0ceef2"}}>psutil</span></strong>, <strong><span style={{color: "#0cf23a"}}>WMI</span></strong> e <strong><span style={{color: "#8e0cf2"}}>rich</span></strong>, construí uma solução que exibe informações detalhadas sobre o desempenho do sistema de forma clara, dinâmica e estilizada dentro do próprio terminal.
             </p>
-            <p className="text-muted-foreground mb-8">
-              Nossa missão é tornar o monitoramento de sistema acessível a todos, desde usuários comuns até profissionais de TI, fornecendo informações precisas em um formato fácil de entender.
+            <p className="text-muted-foreground mb-8" style={{textAlign: 'justify'}}>
+              Minha intenção com o NeoRick é tornar o monitoramento de sistema algo acessível e visualmente intuitivo para qualquer pessoa — desde usuários iniciantes até profissionais — sem a necessidade de instalar programas pesados ou interfaces complexas.
             </p>
           </div>
           
@@ -32,7 +31,7 @@ const About: React.FC = () => {
                 </span>
                 Código Aberto
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground" style={{textAlign: 'justify'}}>
                 NeoRick é um projeto de código aberto, o que significa que qualquer um pode contribuir para o seu desenvolvimento ou adaptá-lo às suas necessidades específicas.
               </p>
             </div>
@@ -46,7 +45,7 @@ const About: React.FC = () => {
                 </span>
                 Compatibilidade
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground" style={{textAlign: 'justify'}}>
                 Atualmente, o NeoRick tem compatibilidade somente com windows. Para linux/mac somente em atualizações futuras, garantindo que você possa monitorar seu sistema independentemente da plataforma que utiliza.
               </p>
             </div>
@@ -60,8 +59,8 @@ const About: React.FC = () => {
                 </span>
                 Baixo Consumo
               </h3>
-              <p className="text-muted-foreground">
-                Desenvolvido para ser leve e eficiente, o NeoInfo não sobrecarrega seu sistema enquanto o monitora, garantindo um desempenho ótimo.
+              <p className="text-muted-foreground" style={{textAlign: 'justify'}}>
+                Desenvolvido para ser leve e eficiente, o NeoRick não sobrecarrega seu sistema enquanto o monitora, garantindo um desempenho ótimo.
               </p>
             </div>
           </div>

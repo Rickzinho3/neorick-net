@@ -20,7 +20,7 @@ const Features: React.FC = () => {
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-2 text-white">Monitoramento em Tempo Real</h3>
-            <p className="text-gray-300">Acompanhe o uso de CPU, memória RAM, GPU e armazenamento com atualizações em tempo real e visualização gráfica.</p>
+            <p className="text-gray-300">Acompanhe o uso de CPU, memória RAM, GPU e armazenamento com atualizações rápidas diretamente no terminal, utilizando barras visuais estilizadas.</p>
           </div>
           
           <div className="bg-neoinfo-darkgray p-6 rounded-lg border border-gray-700 hover:border-neoinfo-purple transition-colors">
@@ -30,8 +30,8 @@ const Features: React.FC = () => {
                 <path d="M22 12A10 10 0 0 0 12 2v10z" />
               </svg>
             </div>
-            <h3 className="text-xl font-semibold mb-2 text-white">Interface Customizável</h3>
-            <p className="text-gray-300">Personalize a visualização de dados com diferentes temas e layouts para adaptá-los às suas preferências.</p>
+            <h3 className="text-xl font-semibold mb-2 text-white">Visual estilizado</h3>
+            <p className="text-gray-300">Inspirado no Neofetch, o NeoRick combina informações detalhadas do sistema com uma apresentação visual atrativa, sem depender de interface gráfica.</p>
           </div>
           
           <div className="bg-neoinfo-darkgray p-6 rounded-lg border border-gray-700 hover:border-neoinfo-purple transition-colors">
@@ -43,7 +43,7 @@ const Features: React.FC = () => {
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-2 text-white">Detecção de Hardware</h3>
-            <p className="text-gray-300">Identifica automaticamente todos os componentes do seu sistema, incluindo detalhes técnicos específicos.</p>
+            <p className="text-gray-300">Exibe automaticamente os principais componentes do sistema, incluindo nome do processador, GPU, arquitetura, rede, armazenamento e muito mais.</p>
           </div>
           
           <div className="bg-neoinfo-darkgray p-6 rounded-lg border border-gray-700 hover:border-neoinfo-purple transition-colors">
@@ -52,8 +52,8 @@ const Features: React.FC = () => {
                 <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
               </svg>
             </div>
-            <h3 className="text-xl font-semibold mb-2 text-white">Alertas Inteligentes</h3>
-            <p className="text-gray-300">Receba notificações quando o uso de recursos atingir níveis críticos ou quando houver anomalias no sistema.</p>
+            <h3 className="text-xl font-semibold mb-2 text-white">Alertas Inteligentes (em planejamento)</h3>
+            <p className="text-gray-300">Planejo implementar alertas simples para informar sobre picos de uso ou possíveis gargalos no sistema, diretamente no terminal.</p>
           </div>
           
           <div className="bg-neoinfo-darkgray p-6 rounded-lg border border-gray-700 hover:border-neoinfo-purple transition-colors">
@@ -66,7 +66,7 @@ const Features: React.FC = () => {
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-2 text-white">Histórico de Desempenho</h3>
-            <p className="text-gray-300">Armazene e analise dados históricos para identificar tendências e otimizar o desempenho do sistema.</p>
+            <p className="text-gray-300">Recursos como histórico de uso e exportação de relatórios estão sendo considerados para versões futuras, com foco em leveza e simplicidade.</p>
           </div>
           
           <div className="bg-neoinfo-darkgray p-6 rounded-lg border border-gray-700 hover:border-neoinfo-purple transition-colors">
@@ -80,7 +80,7 @@ const Features: React.FC = () => {
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-2 text-white">Exportação de Relatórios</h3>
-            <p className="text-gray-300">Gere relatórios detalhados em diferentes formatos para documentação e análise posterior do seu sistema.</p>
+            <p className="text-gray-300">Pretendo adicionar a possibilidade de gerar relatórios com as informações coletadas, em formatos simples como .txt ou .csv, para fins de documentação ou análise posterior.</p>
           </div>
         </div>
       </div>
