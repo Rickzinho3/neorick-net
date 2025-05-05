@@ -30,8 +30,8 @@ const Footer: React.FC = () => {
               <li><a href="https://github.com/Rickzinho3/Neofetch" className="text-gray-300 hover:text-neoinfo-purple transition-colors">Documentação</a></li>
               <li><a href="././public/Neofetch.zip" download className="text-gray-300 hover:text-neoinfo-purple transition-colors">Download</a></li>
               <li><a href="#" className="text-gray-300 hover:text-neoinfo-purple transition-colors">Contribua</a></li>
-              <li><a href="mailto:neorick.network@gmail.com" className="text-gray-300 hover:text-neoinfo-purple transition-colors">Reportar Bug</a></li>
-              <li><a href="mailto:neorick.network@gmail.com" className="text-gray-300 hover:text-neoinfo-purple transition-colors">Solicitar Recurso</a></li>
+              <li><a href="mailto:neorick.network@gmail.com?subject=Contato&body=Olá, gostaria de reportar um bug: ..." className="text-gray-300 hover:text-neoinfo-purple transition-colors">Reportar Bug</a></li>
+              <li><a href="mailto:neorick.network@gmail.com?subject=Contato&body=Olá, gostaria de solicitar um recurso: ..." className="text-gray-300 hover:text-neoinfo-purple transition-colors">Solicitar Recurso</a></li>
             </ul>
           </div>
           
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-neoinfo-purple"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                <span className="text-gray-300">neorick@gmail.com</span>
+                <span className="text-gray-300">neorick.network@gmail.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-neoinfo-purple"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
