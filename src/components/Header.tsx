@@ -14,7 +14,7 @@ const Header: React.FC = () => {
         <a href="#recursos" className="text-white hover:text-neoinfo-purple transition-colors">Recursos</a>
         <a href="#tecnologias" className="text-white hover:text-neoinfo-purple transition-colors">Tecnologias</a>
         <a href="#sobre" className="text-white hover:text-neoinfo-purple transition-colors">Sobre</a>
-        <a href="././public/Neofetch.zip" download><Button className="bg-neoinfo-purple hover:bg-opacity-90 text-white">Download</Button></a>
+        <a href="./Archives/Neofetch.zip" download><Button className="bg-neoinfo-purple hover:bg-opacity-90 text-white">Download</Button></a>
       </nav>
       
       <div className="md:hidden">
