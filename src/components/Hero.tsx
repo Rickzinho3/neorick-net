@@ -21,65 +21,12 @@ const Hero: React.FC = () => {
           </Button>
         </div>
       </div>
-      <div className="flex-1 terminal-window max-w-2xl">
-        <div className="bg-black px-4 py-2 flex items-center gap-2">
-          <div className="h-3 w-3 rounded-full bg-red-500"></div>
-          <div className="h-3 w-3 rounded-full bg-yellow-500"></div>
-          <div className="h-3 w-3 rounded-full bg-green-500"></div>
-          <span className="ml-2 text-gray-400 text-xs font-mono">root @ pwsh in henri</span>
-        </div>
-        <div className="p-6 font-mono text-sm">
-          <div className="flex flex-col gap-4">
-            <div className="typing-demo text-neoinfo-purple overflow-hidden whitespace-nowrap">
-              &gt; python neoinfo.py
-            </div>
-            <div className="text-center mb-8">
-              <pre className="text-left inline-block text-neoinfo-purple text-xl md:text-2xl">
-{`
-/\\/ __       _ _      __      
-/\\/  /__  ___ (_) /__ / _|___  
-/    / _ \\/ _ \\/ /  '_/ _/ _ \\ 
-/_/\\_\\___/_//_/_/_/\\_/_/ \\___/ 
-`}
-              </pre>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div>
-                <p className="text-neoinfo-purple">USER</p>
-                <p className="text-neoinfo-purple">E-MAIL:</p>
-                <p className="text-neoinfo-purple">SISTEMA</p>
-                <p className="text-neoinfo-purple">CPU</p>
-                <p className="text-neoinfo-purple">GPU</p>
-                <p className="text-neoinfo-purple">RAM</p>
-                <p className="text-neoinfo-purple">FREE RAM</p>
-              </div>
-              <div>
-                <p className="text-white">HENRIQUE</p>
-                <p className="text-white">henriqueferreiraa5660@gmail.com</p>
-                <p className="text-white">Microsoft Windows 11 Home</p>
-                <p className="text-white">13th Gen Intel(R) Core(TM) i5-13420H</p>
-                <p className="text-white">NVIDIA GeForce RTX <span className="text-neoinfo-cyan">4050</span></p>
-                <p className="text-neoinfo-cyan">8.00 GB</p>
-                <p className="text-neoinfo-cyan">3.00 GB</p>
-              </div>
-            </div>
-            
-            <div className="mt-4">
-              <p className="text-neoinfo-purple mb-2">CPU -=[<span className="text-neoinfo-purple"> /////////// </span><span className="text-gray-600">////////////////////</span> ]=- <span className="text-neoinfo-purple">11.80%</span></p>
-              <div className="progress-bar">
-                <div className="progress-fill" style={{ width: "11.8%" }}></div>
-              </div>
-            </div>
-            
-            <div className="mt-2">
-              <p className="text-neoinfo-purple mb-2">MEMORY -=[<span className="text-neoinfo-purple"> /////////////////////////// </span><span className="text-gray-600">////////</span> ]=- <span className="text-neoinfo-purple">66.60%</span></p>
-              <div className="progress-bar">
-                <div className="progress-fill" style={{ width: "66.6%" }}></div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="flex-1 max-w-2xl shadow-xl rounded-lg overflow-hidden border border-neoinfo-purple/30">
+        <img 
+          src="/neoinfo-screenshot.png" 
+          alt="NeoInfo Screenshot" 
+          className="w-full h-auto object-cover"
+        />
       </div>
     </section>
   );

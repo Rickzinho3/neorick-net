@@ -68,8 +68,10 @@ export default {
 					purple: '#b026ff',
 					cyan: '#4ECDC4',
 					dark: '#121212',
-					darkgray: '#1E1E1E',
+					darkgray: '#1A1F2C',
 					lightpurple: '#D6BCFA',
+					darkpurple: '#221F26',
+					charcoal: '#403E43',
 				}
 			},
 			fontFamily: {
@@ -110,13 +112,25 @@ export default {
 					'50%': {
 						borderColor: 'transparent'
 					}
+				},
+				'glow': {
+					'0%, 100%': {
+						boxShadow: '0 0 5px #b026ff, 0 0 10px #b026ff'
+					},
+					'50%': {
+						boxShadow: '0 0 15px #b026ff, 0 0 20px #b026ff'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'typing': 'typing 3.5s steps(40, end)',
-				'cursor-blink': 'blink 1s step-end infinite'
+				'cursor-blink': 'blink 1s step-end infinite',
+				'glow': 'glow 1.5s ease-in-out infinite'
+			},
+			boxShadow: {
+				'neon': '0 0 5px #b026ff, 0 0 10px #b026ff, 0 0 15px #b026ff'
 			}
 		}
 	},
