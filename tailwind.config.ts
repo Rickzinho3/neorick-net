@@ -1,4 +1,5 @@
-import type { Config } from "tailwindcss";
+
+import type { Config } from "tailwind-css";
 
 export default {
 	darkMode: ["class"],
@@ -61,7 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Cores personalizadas para o projeto
+				neoinfo: {
+					purple: '#b026ff',
+					cyan: '#4ECDC4',
+					dark: '#121212',
+					darkgray: '#1E1E1E',
+					lightpurple: '#D6BCFA',
 				}
+			},
+			fontFamily: {
+				mono: ['Fira Code', 'JetBrains Mono', 'monospace'],
+				sans: ['Inter', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +97,26 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'typing': {
+					from: {
+						width: '0'
+					},
+					to: {
+						width: '100%'
+					}
+				},
+				'blink': {
+					'50%': {
+						borderColor: 'transparent'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'typing': 'typing 3.5s steps(40, end)',
+				'cursor-blink': 'blink 1s step-end infinite'
 			}
 		}
 	},
