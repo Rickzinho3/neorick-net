@@ -127,7 +127,7 @@
 
 #div-pre {
   background-color: rgb(47, 47, 47);
-  width: 70%;
+  width: 100%;
   border-radius: 0 0 10px 10px;
   position: relative;
   backdrop-filter: blur(10px);
@@ -135,7 +135,7 @@
 }
 
 #div-pre-title {
-  width: 70%;
+  width: 100%;
   border-radius: 10px 10px 0 0;
   z-index: 1;
 }
