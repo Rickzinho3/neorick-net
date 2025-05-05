@@ -120,3 +120,22 @@
 .progress-fill {
   @apply h-full bg-neoinfo-purple;
 }
+
+.img {
+  width: 200%;
+}
+
+#div-pre {
+  background-color: rgb(47, 47, 47);
+  width: 70%;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+
+#div-pre-title {
+  width: 70%;
+  border-radius: 10px 10px 0 0;
+  z-index: 1;
+}

@@ -13,13 +13,13 @@ const Technologies: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="order-2 md:order-1">
             <div className="terminal-window h-full">
-              <div className="bg-black px-4 py-2 flex items-center gap-2">
+              <div id='div-pre-title' className="bg-black px-4 py-2 flex items-center gap-2">
                 <div className="h-3 w-3 rounded-full bg-red-500"></div>
                 <div className="h-3 w-3 rounded-full bg-yellow-500"></div>
                 <div className="h-3 w-3 rounded-full bg-green-500"></div>
                 <span className="ml-2 text-gray-400 text-xs font-mono">requirements.txt</span>
               </div>
-              <div className="p-6 font-mono text-sm">
+              <div id='div-pre' className="p-6 font-mono text-sm">
                 <pre className="text-neoinfo-cyan whitespace-pre-wrap">
 {`# NeoInfo - Requisitos
 python>=3.8.0

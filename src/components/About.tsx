@@ -9,7 +9,7 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Sobre o <span className="text-neoinfo-purple">NeoInfo</span>
+              Sobre o <span className="text-neoinfo-purple">NeoRick</span>
             </h2>
             <p className="text-muted-foreground mb-6">
               O NeoInfo nasceu da necessidade de uma ferramenta de monitoramento de sistema que fosse ao mesmo tempo poderosa e visualmente atraente. Desenvolvido por entusiastas de tecnologia, nosso software combina funcionalidade com estética para proporcionar uma experiência única.
@@ -20,15 +20,6 @@ const About: React.FC = () => {
             <p className="text-muted-foreground mb-8">
               Nossa missão é tornar o monitoramento de sistema acessível a todos, desde usuários comuns até profissionais de TI, fornecendo informações precisas em um formato fácil de entender.
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-neoinfo-purple hover:bg-opacity-90 text-white">
-                Saiba Mais
-              </Button>
-              <Button variant="outline" className="border-neoinfo-purple text-neoinfo-purple hover:bg-neoinfo-purple/10">
-                Contato
-              </Button>
-            </div>
           </div>
           
           <div className="space-y-6">
@@ -42,7 +33,7 @@ const About: React.FC = () => {
                 Código Aberto
               </h3>
               <p className="text-muted-foreground">
-                NeoInfo é um projeto de código aberto, o que significa que qualquer um pode contribuir para o seu desenvolvimento ou adaptá-lo às suas necessidades específicas.
+                NeoRick é um projeto de código aberto, o que significa que qualquer um pode contribuir para o seu desenvolvimento ou adaptá-lo às suas necessidades específicas.
               </p>
             </div>
             
@@ -56,7 +47,7 @@ const About: React.FC = () => {
                 Compatibilidade
               </h3>
               <p className="text-muted-foreground">
-                Projetado para funcionar em diferentes sistemas operacionais, garantindo que você possa monitorar seu sistema independentemente da plataforma que utiliza.
+                Atualmente, o NeoRick tem compatibilidade somente com windows. Para linux/mac somente em atualizações futuras, garantindo que você possa monitorar seu sistema independentemente da plataforma que utiliza.
               </p>
             </div>
             
