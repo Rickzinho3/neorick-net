@@ -150,5 +150,13 @@
   }
 }
 
-#sobre {
+#card {
+  transition: all 0.3s ease;
+  user-select: none;
+  cursor: pointer;
+}
+
+#card:hover {
+  border-color: rgba(176, 38, 255);
+  filter: drop-shadow(0 0 10px rgba(176, 38, 255));
 }

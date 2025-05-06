@@ -8,7 +8,7 @@ const About: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6s">Sobre o <span className="text-neoinfo-purple">NeoRick</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6s" style={{marginBottom: "40px"}}>Sobre o <span className="text-neoinfo-purple">NeoRick</span>
             </h2>
             <p className="text-muted-foreground mb-6" style={{textAlign: 'justify'}}>
               O NeoRick nasceu da minha necessidade por uma ferramenta de monitoramento de sistema que fosse, ao mesmo tempo, poderosa e visualmente atraente, diretamente no terminal. Desenvolvi este projeto unindo minha paixão por tecnologia com o desejo de criar algo funcional e esteticamente agradável, sem a complexidade de interfaces gráficas.
@@ -22,7 +22,7 @@ const About: React.FC = () => {
           </div>
           
           <div className="space-y-6">
-            <div className="bg-neoinfo-darkgray dark:bg-neoinfo-darkgray p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700">
+            <div id='card' className="bg-neoinfo-darkgray dark:bg-neoinfo-darkgray p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700">
               <h3 className="text-xl font-semibold mb-4 flex items-center">
                 <span className="h-8 w-8 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 flex items-center justify-center mr-3">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
@@ -36,7 +36,7 @@ const About: React.FC = () => {
               </p>
             </div>
             
-            <div className="bg-neoinfo-darkgray dark:bg-neoinfo-darkgray p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700">
+            <div id='card' className="bg-neoinfo-darkgray dark:bg-neoinfo-darkgray p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700">
               <h3 className="text-xl font-semibold mb-4 flex items-center">
                 <span className="h-8 w-8 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 flex items-center justify-center mr-3">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
@@ -50,7 +50,7 @@ const About: React.FC = () => {
               </p>
             </div>
             
-            <div className="bg-neoinfo-darkgray dark:bg-neoinfo-darkgray p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700">
+            <div id='card' className="bg-neoinfo-darkgray dark:bg-neoinfo-darkgray p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700">
               <h3 className="text-xl font-semibold mb-4 flex items-center">
                 <span className="h-8 w-8 rounded-full bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 flex items-center justify-center mr-3">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
