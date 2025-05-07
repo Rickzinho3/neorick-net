@@ -106,7 +106,7 @@ FPDF2==2.8.3
                                       />
                                   </svg>
                               </div>
-                              <h3 className="text-2xl font-semibold">psutil</h3>
+                              <h3 className="text-2xl font-semibold">Psutil</h3>
                           </div>
                           <p className="text-muted-foreground" style={{textAlign: 'justify'}}>
                               Uma biblioteca multiplataforma para recuperar
