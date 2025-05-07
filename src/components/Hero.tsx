@@ -38,7 +38,7 @@ const Hero: React.FC<HeroProps> = ({ onDownloadClick }) => {
             </div>
           </div>
           <div className="code"><FaTerminal/>
-            <div className="rcode"><h1 style={{color: "rgb(176, 38, 255)"}}>neorick<span style={{color: 'grey'}}> // inicializa o projeto</span></h1>
+            <div className="rcode"><h1 style={{color: "rgb(176, 38, 255)"}}>neorick<span style={{color: 'grey'}}> // inicializa a interface</span></h1>
             </div>
           </div>
           <div className="code"><FaTerminal/>
