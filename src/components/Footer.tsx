@@ -27,11 +27,11 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-4 text-white">Links Rápidos</h4>
             <ul className="space-y-2">
-              <li><a href="https://github.com/Rickzinho3/Neofetch" className="text-gray-300 hover:text-neoinfo-purple transition-colors">Documentação</a></li>
-              <li><a href="././public/Neofetch.zip" download className="text-gray-300 hover:text-neoinfo-purple transition-colors">Download</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-neoinfo-purple transition-colors">Contribua</a></li>
-              <li><a href="mailto:neorick.network@gmail.com?subject=Contato&body=Olá, gostaria de reportar um bug: ..." className="text-gray-300 hover:text-neoinfo-purple transition-colors">Reportar Bug</a></li>
-              <li><a href="mailto:neorick.network@gmail.com?subject=Contato&body=Olá, gostaria de solicitar um recurso: ..." className="text-gray-300 hover:text-neoinfo-purple transition-colors">Solicitar Recurso</a></li>
+              <li><a href="https://github.com/Rickzinho3/neorick" className="text-gray-300 hover:text-neoinfo-purple transition-colors">Documentação</a></li>
+              <li><a href="././public/neorick-0.2.0.tar.gz" download className="text-gray-300 hover:text-neoinfo-purple transition-colors">Download</a></li>
+              <li><a href="mailto:neorick.network@gmail.com?subject=Contato&body=Olá, gostaria de fazer parte do projeto. Tenho familiaridade com..." className="text-gray-300 hover:text-neoinfo-purple transition-colors">Faça parte do projeto</a></li>
+              <li><a href="mailto:neorick.network@gmail.com?subject=Contato&body=Olá, gostaria de reportar um bug: " className="text-gray-300 hover:text-neoinfo-purple transition-colors">Reportar Bug</a></li>
+              <li><a href="mailto:neorick.network@gmail.com?subject=Contato&body=Olá, gostaria de solicitar um novo recurso: " className="text-gray-300 hover:text-neoinfo-purple transition-colors">Solicitar Recurso</a></li>
             </ul>
           </div>
           

@@ -49,6 +49,7 @@ rich==14.0.0
 setuptools==79.0.0
 urllib3==2.4.0
 WMI==1.5.1
+FPDF2==2.8.3
 `}
                               </pre>
                           </div>

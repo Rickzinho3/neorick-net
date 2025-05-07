@@ -66,7 +66,7 @@ const Features: React.FC = () => {
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-2 text-white">Histórico de Desempenho</h3>
-            <p className="text-gray-300">Recursos como histórico de uso e exportação de relatórios estão sendo considerados para versões futuras, com foco em leveza e simplicidade.</p>
+            <p className="text-gray-300">O sistema conta com um módulo de histórico de uso, que registra e organiza as atividades realizadas ao longo do tempo. Essa funcionalidade permite acompanhar o desempenho da aplicação de forma contínua.</p>
           </div>
           
           <div className="bg-neoinfo-darkgray p-6 rounded-lg border border-gray-700 hover:border-neoinfo-purple transition-colors">
@@ -80,7 +80,7 @@ const Features: React.FC = () => {
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-2 text-white">Exportação de Relatórios</h3>
-            <p className="text-gray-300">Pretendo adicionar a possibilidade de gerar relatórios com as informações coletadas, em formatos simples como .txt ou .csv, para fins de documentação ou análise posterior.</p>
+            <p className="text-gray-300">É possível gerar relatórios completos com base nas informações registradas, no formato PDF. Essa funcionalidade facilita a documentação, análise e compartilhamento de dados, atendendo a demandas de auditoria, controle interno e apresentação de resultados.</p>
           </div>
         </div>
       </div>

@@ -150,6 +150,30 @@
   }
 }
 
+@media (max-width: 1024px) {
+  #section-hero {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 960px) {
+  .ter {
+    width: 100%;
+  }
+
+  #div-btn {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.ter {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  gap: 20px;
+}
+
 #card {
   transition: all 0.3s ease;
   user-select: none;
@@ -160,3 +184,30 @@
   border-color: rgba(176, 38, 255);
   filter: drop-shadow(0 0 10px rgba(176, 38, 255));
 }
+
+.code {
+  border: 1px solid rgb(255, 255, 255, .33);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(2, 50, 56, 0.459);
+  color: #fff;
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+  padding-left: 10px;
+  transition: all 0.3s ease;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.code:hover {
+  border-color: rgba(176, 38, 255);
+}
+
+.rcode {
+  display: flex;
+  align-items: center;
+}
+
+
