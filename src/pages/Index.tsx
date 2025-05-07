@@ -6,18 +6,23 @@ import Features from '@/components/Features';
 import Technologies from '@/components/Technologies';
 import About from '@/components/About';
 import Footer from '@/components/Footer';
+import Notification from '@/components/Notification';
+import { useState } from 'react';
 
 const Index = () => {
+  const[showNotification, setShowNotification] = useState(false);
+
   return (
     <div className="min-h-screen bg-neoinfo-dark text-white">
-      <Header />
+      <Header onDownloadClick={() => setShowNotification(true)}/>
       <main>
-        <Hero />
+        <Hero onDownloadClick={() => setShowNotification(true)}/>
         <Features />
         <Technologies />
         <About />
+        <Notification visible={showNotification} onClose={() => setShowNotification(false)}/>
       </main>
-      <Footer />
+      <Footer onDownloadClick={() => setShowNotification(true)}/>
     </div>
   );
 };

@@ -5,7 +5,12 @@ import { FaDownload } from 'react-icons/fa';
 import { FaBook } from 'react-icons/fa';
 import { FaTerminal } from 'react-icons/fa';
 
-const Hero: React.FC = () => {
+type HeroProps = {
+  onDownloadClick: () => void;
+}
+
+const Hero: React.FC<HeroProps> = ({ onDownloadClick }) => {
+  
   return (
     <section id='section-hero' className="py-16 px-6 md:px-12 lg:px-16 flex flex-col md:flex-row items-center justify-between gap-10">
       <div id='div-hero' className="flex-1 space-y-6">
@@ -17,7 +22,7 @@ const Hero: React.FC = () => {
         </p>
         <div id='div-btn' className="flex flex-col sm:flex-row gap-4">
           <a href="/neorick-0.2.0.tar.gz" download>
-            <Button id='btn-d' className="bg-neoinfo-purple hover:bg-opacity-90 text-white py-6 px-8 text-lg">
+            <Button onClick={onDownloadClick} id='btn-d' className="bg-neoinfo-purple hover:bg-opacity-90 text-white py-6 px-8 text-lg">
               <FaDownload/> Download Gratuito
             </Button>
           </a>
