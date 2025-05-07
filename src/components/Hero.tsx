@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
           Uma ferramenta moderna desenvolvida em Python para visualização detalhada de métricas do seu sistema, com interface elegante e informações em tempo real.
         </p>
         <div id='div-btn' className="flex flex-col sm:flex-row gap-4">
-          <a href="././public/neorick-0.2.0.tar.gz" download>
+          <a href="/neorick-0.2.0.tar.gz" download>
             <Button id='btn-d' className="bg-neoinfo-purple hover:bg-opacity-90 text-white py-6 px-8 text-lg">
               <FaDownload/> Download Gratuito
             </Button>
