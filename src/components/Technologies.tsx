@@ -24,12 +24,12 @@ const Technologies: React.FC = () => {
                               <div className="h-3 w-3 rounded-full bg-yellow-500"></div>
                               <div className="h-3 w-3 rounded-full bg-green-500"></div>
                               <span className="ml-2 text-gray-400 text-xs font-mono">
-                                  requirements.txt
+                                  pyproject.toml
                               </span>
                           </div>
                           <div id="div-pre" className="p-6 font-mono text-sm">
                               <pre className="text-neoinfo-cyan whitespace-pre-wrap">
-                                  {`# NeoRick - Requisitos
+                                  {`# Bibliotecas utilizadas
 
 backports.functools-lru-cache==2.0.0
 caniusepython3==7.3.0
@@ -77,12 +77,48 @@ FPDF2==2.8.3
                               </div>
                               <h3 className="text-2xl font-semibold">Python</h3>
                           </div>
-                          <p className="text-muted-foreground" style={{textAlign: 'justify'}}>
+                          <p
+                              className="text-muted-foreground"
+                              style={{ textAlign: "justify" }}
+                          >
                               A base de todo o projeto, Python oferece uma
                               sintaxe limpa e bibliotecas poderosas para
                               desenvolvimento rápido e eficiente. Utilizamos
                               Python 3.8+ para garantir compatibilidade com as
                               tecnologias mais recentes.
+                          </p>
+                      </div>
+
+                      <Separator className="my-6" />
+
+                      <div>
+                          <div className="flex items-center gap-3 mb-4">
+                              <div className="h-10 w-10 rounded-lg bg-fuchsia-500/20 flex items-center justify-center">
+                                  <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      fill="none"
+                                      viewBox="0 0 24 24"
+                                      strokeWidth={1.5}
+                                      stroke="currentColor"
+                                      className="w-6 h-6 text-purple-500"
+                                  >
+                                      <path
+                                          strokeLinecap="round"
+                                          strokeLinejoin="round"
+                                          d="M21 16.5v-9a2.25 2.25 0 00-1.116-1.947l-7.5-4.5a2.25 2.25 0 00-2.268 0l-7.5 4.5A2.25 2.25 0 003 7.5v9a2.25 2.25 0 001.116 1.947l7.5 4.5a2.25 2.25 0 002.268 0l7.5-4.5A2.25 2.25 0 0021 16.5z"
+                                      />
+                                  </svg>
+                              </div>
+                              <h3 className="text-2xl font-semibold">Poetry</h3>
+                          </div>
+                          <p
+                              className="text-muted-foreground"
+                              style={{ textAlign: "justify" }}
+                          >
+                              Poetry é um gerenciador de dependências para
+                              Python. Ele facilita a instalação e a
+                              gerenciamento de pacotes, além de fornecer um
+                              ambiente virtual isolado para cada projeto.
                           </p>
                       </div>
 
@@ -108,7 +144,10 @@ FPDF2==2.8.3
                               </div>
                               <h3 className="text-2xl font-semibold">Psutil</h3>
                           </div>
-                          <p className="text-muted-foreground" style={{textAlign: 'justify'}}>
+                          <p
+                              className="text-muted-foreground"
+                              style={{ textAlign: "justify" }}
+                          >
                               Uma biblioteca multiplataforma para recuperar
                               informações sobre processos em execução e
                               utilização do sistema. Utilizamos para coletar
@@ -144,7 +183,10 @@ FPDF2==2.8.3
                               </div>
                               <h3 className="text-2xl font-semibold">WMI</h3>
                           </div>
-                          <p className="text-muted-foreground" style={{textAlign: 'justify'}}>
+                          <p
+                              className="text-muted-foreground"
+                              style={{ textAlign: "justify" }}
+                          >
                               Windows Management Instrumentation (WMI) é usado
                               para acessar informações detalhadas do hardware em
                               sistemas Windows, permitindo coletar dados
@@ -175,7 +217,10 @@ FPDF2==2.8.3
                               </div>
                               <h3 className="text-2xl font-semibold">Rich</h3>
                           </div>
-                          <p className="text-muted-foreground" style={{textAlign: 'justify'}}>
+                          <p
+                              className="text-muted-foreground"
+                              style={{ textAlign: "justify" }}
+                          >
                               Biblioteca para formatação de texto rica no
                               terminal, permitindo criar interfaces de linha de
                               comando elegantes com cores, estilos, tabelas e
