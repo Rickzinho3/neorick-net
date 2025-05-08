@@ -121,6 +121,10 @@
   @apply h-full bg-neoinfo-purple;
 }
 
+::selection {
+  @apply bg-neoinfo-purple text-white;
+}
+
 .img {
   width: 200%;
 }
